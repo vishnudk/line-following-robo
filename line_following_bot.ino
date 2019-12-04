@@ -32,7 +32,11 @@ void loop() {
     stop_bot();
   }
 }
-public void stoop_bot(){
+public void stop_bot(){
+  moto_1_left=0;
+  moto_1_right=0;
+  moto_2_left=0;
+  moto_2_right=0;
   
 }
 public void turn_left(){
